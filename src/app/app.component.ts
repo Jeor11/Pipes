@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-nombre = 'Peter Parker';
-arreglo = [1, 2, 3, 4, 5, 6, 7, 8];
+nombre = 'Peter Parker,';
+personajes = [ 'SpiderMan', 'Hulk', 'IronMan'];
+PI: number = Math.PI;
+Porcentaje = 0.234;
+Salario = 1234.52323;
 }
