@@ -1,5 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
+
+import { registerLocaleData } from '@angular/common';
+import localEs from '@angular/common/locales/es-MX';
+
+// the second parameter 'fr-FR' is optional
+registerLocaleData(localEs);
 
 import { AppComponent } from './app.component';
 
@@ -10,7 +16,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [{provide: LOCALE_ID, useValue: 'es-MX'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

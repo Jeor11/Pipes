@@ -65,6 +65,30 @@
                         <td>{{ valorPromesa | async }}</td>
                     </tr>
 
+                    <tr>
+                        <td>{{ Fecha }}</td>
+                        <td>Fecha </td>
+                        <td>{{ Fecha | date }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>{{ Fecha }}</td>
+                        <td>Fecha : date :'long' </td>
+                        <td>{{ Fecha | date :'long' }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>{{ Fecha }}</td>
+                        <td>Fecha : date :'short' </td>
+                        <td>{{ Fecha | date :'short' }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>{{ Fecha }}</td>
+                        <td>Fecha : date :'yy-MMMM-dd' </td>
+                        <td>{{ Fecha | date :'yy-MMMM-dd' }}</td>
+                    </tr>
+
                 </tbody>
             </table>
         </div>
