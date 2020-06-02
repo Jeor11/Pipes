@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nombre = 'Peter Parker,';
+  nombre2 = 'JoEl OLguiN rAmIrEz';
   personajes = ['SpiderMan', 'Hulk', 'IronMan'];
   PI: number = Math.PI;
   Porcentaje = 0.234;
